@@ -21,7 +21,7 @@
 			let now=Date.now();
 			let diff=now-last;
 			let days=Math.floor(diff/86400000);
-			document.getElementById("daysSince").innerHTML= days.toString();
+			document.getElementById("daysSince").innerHTML= days.toString()+now.prototype.getDate();
 		</script>
 		<b>CURRENT PROJECT</b>
 		<br/>
