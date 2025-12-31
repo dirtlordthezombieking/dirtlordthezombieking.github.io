@@ -16,12 +16,12 @@
 		<p id="daysSince"></p>
 		<script type="text/javascript">
 			//document.getElementById("daysSince").innerHTML="test1";
-			daysSince.innerHTML="test2";
-			let last=new Date(2025,12,31);
+			//daysSince.innerHTML="test2";
+			let last=new Date(2025,11,31);
 			let now=Date.now();
 			let diff=now-last;
 			let days=Math.floor(diff/86400000);
-			document.getElementById("daysSince").innerHTML= days.toString()+last.toISOString();
+			document.getElementById("daysSince").innerHTML="My resolution for 2026 is to stick to one prohject. I have been working on my current project consistently for"+days.toString()+"days";
 		</script>
 		<b>CURRENT PROJECT</b>
 		<br/>
