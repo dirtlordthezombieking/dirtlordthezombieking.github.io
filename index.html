@@ -13,6 +13,14 @@
 		<br/>
 		<br/>
 		<br/>
+		<p id="daysSince"></p>
+		<script type="text/javascript">
+			let last=new Date(2025,12,31);
+			let now=Date.now();
+			let diff=now-last;
+			let days=Math.floor(diff/86400000);
+			document.getElementById("daysSince").innerHTML= daysSince.toString();
+		</script>
 		<b>CURRENT PROJECT</b>
 		<br/>
 		<p style="margin-left:40px">
